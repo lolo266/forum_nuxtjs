@@ -60,7 +60,7 @@ module.exports = {
   modules: [
     '@nuxtjs/axios', 
     ['@nuxtjs/html-minifier', { log: 'once'}], 
-    ['@nuxtjs/pwa', { icon: false }]
+    //['@nuxtjs/pwa', { icon: false }] //Bật trong chế độ sản xuất
   ],
   pwa: {
     manifest: {
